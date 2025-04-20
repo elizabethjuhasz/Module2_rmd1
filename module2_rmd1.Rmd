@@ -3,8 +3,8 @@ title: "Module 2 - R Markdown Document 1"
 author: "Elizabeth M. Juhasz"
 date: "2025-04-20"
 output:
-  html_document: default
   word_document: default
+  html_document: default
   pdf_document: default
 ---
 
@@ -103,3 +103,25 @@ knitr::kable(head(cars),
 ## Insert an Equation
 
 $$ Y = \beta_0 + \beta_1x $$
+
+## Insert an Image
+
+![sunstar](sunstar.png)
+
+
+## Insert an Animated Gif and Video 
+
+![sunstar](sunstar.mp4)
+
+![sunstar](sunstar.gif)
+
+
+## Insert Text with Some Footnotes
+
+Here is a footnote reference [^1] and another [^longnote]
+
+Here is an inline footnote ^[Inline notes are easier to write, since you don't have to pick an indentifier and move down to type the note.]
+
+[^1]:Here is the footnote. 
+[^longnote]: Here is one with multiple blocks. 
+
